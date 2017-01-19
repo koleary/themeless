@@ -1,0 +1,68 @@
+.skn .region {
+  background: #fff;
+  background-color: #eee;
+  background-image: none;
+  border-width: 0;
+  border-color: transparent;
+  border-style: solid; }
+  .skn .region .region-header {
+    background: #555;
+    background-color: #555;
+    border-width: 0;
+    border-style: solid; }
+  .skn .region .region-navigation {
+    background: #777;
+    background-color: #777;
+    border-width: 0;
+    border-style: solid; }
+  .skn .region .region-alternate_navigation {
+    background: #777;
+    background-color: #777;
+    border-width: 0;
+    border-style: solid; }
+  .skn .region .region-help {
+    background: #444;
+    background-color: #444;
+    border-width: 0;
+    border-style: solid; }
+  .skn .region .region-messages {
+    background: #444;
+    border-width: 0;
+    border-style: solid; }
+  .skn .region .region-featured {
+    border-width: 0;
+    border-style: solid;
+    background: #eee; }
+  .skn .region .region-content {
+    background: #fff;
+    background-color: #fff;
+    border-width: 0;
+    border-style: solid; }
+  .skn .region .region-first_aside {
+    background: #eee;
+    background-color: #eee;
+    border-width: 0;
+    border-style: solid; }
+  .skn .region .region-second_aside {
+    background: #eee;
+    background-color: #eee;
+    border-width: 0;
+    border-style: solid; }
+  .skn .region .region-legal {
+    background: #555;
+    background-color: #555;
+    border-width: 0;
+    border-style: solid; }
+
+.skn .search-block-form h2,
+.skn form.search-block-form {
+  color: #fff; }
+.skn .search-block-form div.form-actions {
+  background: transparent;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  border-radius: 4px; }
+
+body {
+  background: #fff; }

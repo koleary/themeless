@@ -1,0 +1,12 @@
+<?php
+/**
+ * @file
+ * Implements functions to facilitate styling the output of this feature for a themeless site.
+ */
+
+/**
+ * Implements hook_page_attachments().
+ */
+function your_namespace_page_attachments(array &$page) {
+  $page['#attached']['library'][] = 'your_namespace/global_styling';
+}

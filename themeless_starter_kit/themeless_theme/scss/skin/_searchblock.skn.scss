@@ -1,0 +1,13 @@
+//
+.skn {
+
+  .search-block-form h2,
+  form.search-block-form  {
+    color: #fff;
+  }
+
+  .search-block-form div.form-actions {
+    background: transparent;
+    @include border-radius($radius);
+  }
+}

@@ -1,0 +1,97 @@
+
+// Skin styles for region backgrounds and borders
+
+.skn {
+
+  // All regions.
+  .region {
+    background-color: #fff;
+    background-image: none;
+    border-width: 0;
+    border-color: transparent;
+    border-style: solid;
+
+    // Create unique styles for each region below
+    // By default region background colors alternate for development purposes
+    // Header region
+    .region-header {
+      background-color: #fff;
+      border-color: transparent;
+      border-width: 0;
+      border-style: solid;
+    }
+
+    // Navigation region
+    .region-navigation {
+      background-color: #eee;
+      border-color: transparent;
+      border-width: 0;
+      border-style: solid;
+    }
+
+    // Alternate navigation region
+    .region-alternate_navigation {
+      background-color: #fff;
+      border-color: transparent;
+      border-width: 0;
+      border-style: solid;
+    }
+
+    // Help region
+    .region-help {
+      background-color: #eee;
+      border-color: transparent;
+      border-width: 0;
+      border-style: solid;
+    }
+
+    // Messages region
+    .region-messages {
+      background-color: #fff;
+      border-color: transparent;
+      border-width: 0;
+      border-style: solid;
+    }
+
+    // Featured region
+    .region-featured {
+      background-color: #eee;
+      border-color: transparent;
+      border-width: 0;
+      border-style: solid;
+    }
+
+    // Content region
+    .region-content {
+      background-color: #fff;
+      border-color: transparent;
+      border-width: 0;
+      border-style: solid;
+    }
+
+    // First aside region
+    .region-first_aside {
+      background-color: #eee;
+      border-color: transparent;
+      border-width: 0;
+      border-style: solid;
+    }
+
+    // Second aside region
+    .region-second_aside {
+      background-color: #fff;
+      border-color: transparent;
+      border-width: 0;
+      border-style: solid;
+    }
+
+    // Legal region
+    .region-legal {
+      background-color: #eee;
+      border-color: transparent;
+      border-width: 0;
+      border-style: solid;
+    }
+  }
+}
+

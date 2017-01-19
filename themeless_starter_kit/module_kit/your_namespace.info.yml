@@ -1,0 +1,7 @@
+name: 'your namespace'
+description: 'description'
+type: module
+core: 8.x
+dependencies:
+  - features
+package: 'package'

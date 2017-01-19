@@ -1,0 +1,7 @@
+global_styling:
+  version: 1.x
+  css:
+    theme:
+      css/your_namespace.theme.css: {}
+  js:
+    js/your_namespace.js: {}

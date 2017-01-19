@@ -1,0 +1,11 @@
+// @file Default page skin.
+
+@import 'variables';
+@import 'colors.skn';
+@import 'searchblock.skn';
+
+
+// Change if the whole site needs a background.
+body {
+  background: #fff;
+}

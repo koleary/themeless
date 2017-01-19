@@ -1,0 +1,23 @@
+/**
+ * @file
+ * Skin for dropbuttons.
+ * To use, copy into nameOfYourModule.skin.css and change the .skn class to .skn-nameOfYourModule.
+ */
+
+ .skn .js .dropbutton-widget {
+  background-color: white;
+  border: 1px solid #cccccc;
+}
+.skn .js .dropbutton-widget:hover {
+  border-color: #b8b8b8;
+}
+.skn .dropbutton .secondary-action {
+  border-top: 1px solid #e8e8e8;
+}
+.skn .dropbutton-multiple .dropbutton {
+  border-right: 1px solid #e8e8e8; /* LTR */
+}
+[dir="rtl"] .skn .dropbutton-multiple .dropbutton {
+  border-left: 1px solid #e8e8e8;
+  border-right: 0 none;
+}

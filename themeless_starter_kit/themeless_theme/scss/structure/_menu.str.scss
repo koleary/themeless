@@ -1,0 +1,15 @@
+// Menus.
+
+.str .menu-item {
+    box-sizing: border-box;
+    display: inline-block;
+    margin: 0;
+    padding: 3px 10px;
+    height: 1.8em;
+    vertical-align: top;
+    @include clip;
+
+  & a {
+    vertical-align: middle;
+  }
+}

@@ -1,0 +1,8 @@
+
+
+// Mixins
+                    @mixin clip {
+-webkit-background-clip: padding;
+   -moz-background-clip: padding;
+    background-clip: padding-box;
+}

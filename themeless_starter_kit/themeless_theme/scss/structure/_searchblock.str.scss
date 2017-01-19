@@ -1,0 +1,22 @@
+// Search block structural css
+
+.str {
+
+  div.search-block-form {
+    float: right;
+  }
+
+  .str .search-block-form h2,
+  form.search-block-form  {
+    display: inline-block;
+  }
+
+  .str .search-block-form div.form-actions {
+    box-sizing: border-box;
+    display: inline-block;
+  }
+
+  .str #block-themeless-account-menu {
+   float: right;
+  }
+}

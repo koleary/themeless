@@ -1,0 +1,89 @@
+.str .menu-item {
+  box-sizing: border-box;
+  display: inline-block;
+  margin: 0;
+  padding: 3px 10px;
+  height: 1.8em;
+  vertical-align: top;
+  -webkit-background-clip: padding;
+  -moz-background-clip: padding;
+  background-clip: padding-box; }
+  .str .menu-item a {
+    vertical-align: middle; }
+
+.str .block-system-branding-block {
+  margin: 10px; }
+.str h2.site-name {
+  display: inline-block;
+  vertical-align: middle; }
+
+.str div.search-block-form {
+  float: right; }
+.str .str .search-block-form h2,
+.str form.search-block-form {
+  display: inline-block; }
+.str .str .search-block-form div.form-actions {
+  box-sizing: border-box;
+  display: inline-block; }
+.str .str #block-themeless-account-menu {
+  float: right; }
+
+.str div,
+.str ul,
+.str ol,
+.str blockquote {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0; }
+.str .block,
+.str .form-item,
+.str .button,
+.str .table,
+.str .ul {
+  box-sizing: border-box;
+  display: inline-block; }
+.str article,
+.str aside,
+.str blockquote,
+.str body,
+.str br,
+.str button,
+.str canvas,
+.str caption,
+.str col,
+.str colgroup,
+.str dd,
+.str div,
+.str dl,
+.str dt,
+.str embed,
+.str fieldset,
+.str figcaption,
+.str figure,
+.str footer,
+.str form,
+.str hgroup,
+.str hr,
+.str li,
+.str map,
+.str ol,
+.str output,
+.str p,
+.str pre,
+.str progress,
+.str section,
+.str table,
+.str tbody,
+.str textarea,
+.str tfoot,
+.str th,
+.str thead,
+.str tr,
+.str h1,
+.str h2,
+.str h3,
+.str h4,
+.str h5,
+.str h6,
+.str video {
+  box-sizing: border-box; }

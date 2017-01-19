@@ -1,0 +1,117 @@
+
+/* Block level elements. */
+
+.str div,
+.str ul,
+.str ol,
+.str blockquote {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.str .block,
+.str .form-item,
+.str .button,
+.str .table,
+.str .ul {
+  box-sizing: border-box;
+  display: inline-block;
+}
+
+/* Menus. */
+.str .menu-item {
+  box-sizing: border-box;
+  display: inline-block;
+  -webkit-background-clip: padding;
+  -moz-background-clip: padding;
+  background-clip: padding-box;
+  margin: 0;
+  padding: 3px 10px;
+  height: 1.8em;
+  vertical-align: top;
+}
+.str .menu-item a {
+  vertical-align: middle;
+}
+
+/* @todo move to search block feature. */
+.str div.search-block-form {
+  float: right;
+}
+.str .search-block-form h2,
+form.search-block-form  {
+  display: inline-block;
+}
+.str .search-block-form div.form-actions {
+  box-sizing: border-box;
+  display: inline-block;
+}
+.str #block-themeless-account-menu {
+ float: right;
+}
+
+/* @todo move to branding block feature. */
+.str .block-system-branding-block {
+  margin: 10px;
+}
+.str h2.site-name {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+/* Set block level element defaults. */
+article,
+aside,
+blockquote,
+body,
+br,
+button,
+canvas,
+caption,
+col,
+colgroup,
+dd,
+div,
+dl,
+dt,
+embed,
+fieldset,
+figcaption,
+figure,
+footer,
+form,
+hgroup,
+hr,
+li,
+map,
+ol,
+output,
+p,
+pre,
+progress,
+section,
+table,
+tbody,
+textarea,
+tfoot,
+th,
+thead,
+tr,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+video {
+  box-sizing: border-box;
+}
+
+
+
+
+
+
+
+

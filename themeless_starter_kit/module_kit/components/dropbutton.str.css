@@ -1,0 +1,49 @@
+/**
+ * @file
+ * Structure for dropbuttons.
+ */
+
+/* Below is the markup.
+ * To use, copy to a new file and save in nameOfYourModule/templates as dropbutton-wrappwe.html.twig.
+ * Don't forget to uncomment the markup (everything after '#}' ).
+ */
+
+/* < ———————————————————— Begin template ———————————————————— >
+ {#
+/**
+ * Available variables:
+ * - children: Contains the child elements of the dropbutton menu.
+ *
+ * @see template_preprocess()
+ */
+/*
+#}
+{% if children %}
+  {% spaceless %}
+    <div class="dropbutton-wrapper">
+      <div class="dropbutton-widget">
+        {{ children }}
+      </div>
+    </div>
+  {% endspaceless %}
+{% endif %}
+  < ———————————————————— end template ———————————————————— > */
+
+/* Below is the structural CSS.
+ * To use it add the name of this file to nameOfYourMOdule.libraries.yml like so:
+css:
+  base:
+    css/nameOfYourModule.structure.css: {}
+*/
+
+.str .dropbutton .dropbutton-action > * {
+  padding: 0.1em 0.5em;
+  white-space: nowrap;
+}
+.str .dropbutton-multiple .dropbutton .dropbutton-action > * {
+  margin-right: 0.25em; /* LTR */
+}
+[dir="rtl"] .str .dropbutton-multiple .dropbutton .dropbutton-action > * {
+  margin-left: 0.25em;
+  margin-right: 0;
+}

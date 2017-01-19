@@ -1,0 +1,65 @@
+langcode: en
+status: true
+dependencies: {  }
+name: 'Themeless'
+machine_name: themeless
+description: ''
+assignments:
+  base:
+    types:
+      config: {  }
+      content: {  }
+    enabled: false
+    weight: -2
+  core:
+    types:
+      config: {  }
+    enabled: false
+    weight: 5
+  dependency:
+    enabled: true
+    weight: 15
+  exclude:
+    types:
+      config: {  }
+    curated: false
+    module:
+      installed: false
+      profile: true
+      namespace: true
+      namespace_any: false
+    enabled: false
+    weight: -5
+  existing:
+    enabled: true
+    weight: 12
+  forward_dependency:
+    enabled: false
+    weight: 4
+  namespace:
+    enabled: true
+    weight: 0
+  optional:
+    types:
+      config: {  }
+    enabled: false
+    weight: 0
+  packages:
+    enabled: false
+    weight: -20
+  profile:
+    curated: false
+    standard:
+      files: false
+      dependencies: false
+    types:
+      config: {  }
+    enabled: false
+    weight: 10
+  site:
+    types:
+      config: {  }
+    enabled: false
+    weight: 7
+profile_name: standard
+is_profile: false

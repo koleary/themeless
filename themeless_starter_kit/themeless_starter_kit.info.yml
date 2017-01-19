@@ -1,0 +1,13 @@
+name: 'Themeless Starter Kit'
+description: 'A kit for building modules that contain their own presentation attributes.'
+type: module
+core: 8.x
+dependencies:
+  - features
+  - config
+  - config_sync
+  - config_provider
+  - config_update
+  - config_share
+  - Default_content
+package: 'Themeless'

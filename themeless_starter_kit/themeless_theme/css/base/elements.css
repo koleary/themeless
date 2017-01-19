@@ -1,0 +1,127 @@
+/**
+ * Generic elements.
+ */
+
+/* Override some Formalize default styles. */
+button,
+a.button,
+input[type="reset"],
+input[type="submit"],
+input[type="button"] {
+  background: #ddd;
+  background-image: none;
+  border-color: #ccc;
+  border-radius: 2px;
+  font-size: inherit;
+  font-weight: 600;
+  font-family: inherit;
+  text-shadow: none;
+  height: 1.8em;
+}
+button:hover,
+a.button:hover,
+input[type="reset"]:hover,
+input[type="submit"]:hover,
+input[type="button"]:hover {
+  background: #ccc;
+  background-image: none;
+}
+button:active,
+a.button:active,
+input[type="reset"]:active,
+input[type="submit"]:active,
+input[type="button"]:active {
+  background-image: none;
+  border-color: #bbb;
+}
+textarea,
+select,
+input[type="date"],
+input[type="datetime"],
+input[type="datetime-local"],
+input[type="email"],
+input[type="month"],
+input[type="number"],
+input[type="password"],
+input[type="search"],
+input[type="tel"],
+input[type="text"],
+input[type="time"],
+input[type="url"],
+input[type="week"] {
+  font-family: inherit;
+  font-size: inherit;
+}
+
+@media (-webkit-min-device-pixel-ratio: 0) {
+  ::-webkit-validation-bubble-message {
+    font: inherit;
+  }
+}
+optgroup {
+  font-family: inherit;
+}
+
+/* Themeless base styles. */
+
+/* Set block level element defaults. */
+article,
+aside,
+blockquote,
+body,
+br,
+button,
+canvas,
+caption,
+col,
+colgroup,
+dd,
+div,
+dl,
+dt,
+embed,
+fieldset,
+figcaption,
+figure,
+footer,
+form,
+hgroup,
+hr,
+li,
+map,
+ol,
+output,
+p,
+pre,
+progress,
+section,
+table,
+tbody,
+textarea,
+tfoot,
+th,
+thead,
+tr,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+video {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  color: #333;
+  background: #fff;
+  font: normal 100%/1em "Source Sans Pro", "Myriad Pro", "Myriad", "Liberation Sans", sans-serif;
+}
+a,
+.link {
+  color: #2196f3;
+}
+
+

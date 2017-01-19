@@ -1,0 +1,14 @@
+global-styling:
+  version: VERSION
+  css:
+    base:
+      css/base/reset.css: {}
+      css/base/formalize.css: {}
+      css/base/elements.css: {}
+      css/base/print.css: {}
+    layout:
+    theme:
+      css/theme/structure/default.structure.css: {}
+      css/theme/skin/default.skin.css: {}
+  js:
+    js/jquery-formalize.min.js: {}

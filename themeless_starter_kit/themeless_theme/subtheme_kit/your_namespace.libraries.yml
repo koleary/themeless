@@ -1,0 +1,9 @@
+global_styling:
+  version: 1.x
+  css:
+    base:
+      css/your_namespace.grid.css: {}
+    theme:
+      css/your_namespace.region.css: {}
+  js:
+    js/your_namespace.js: {}

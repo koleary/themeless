@@ -1,0 +1,23 @@
+name: Themeless
+type: theme
+description: 'A theme that removes all styling so that it can be added by individual components.'
+alt text: 'A theme that removes all styling so that it can be added by individual components.'
+package: Themeless
+version: VERSION
+core: 8.x
+# Defines the base theme
+base theme: FALSE
+libraries:
+ - themeless/global-styling
+regions:
+  header: Header
+  navigation: Navigation
+  alternate_navigation: Alternate Navigation
+  featured: Featured
+  help: Help
+  messages: Messages
+  content: Content
+  first_aside: First Aside
+  second_aside: Second Aside
+  legal: Legal
+
